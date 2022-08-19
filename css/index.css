@@ -1,0 +1,106 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* header *************************************/
+
+header {
+    position: sticky;
+    top: 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(237, 237, 237);
+}
+
+header img {
+    width: 32px;
+    padding: 8px;
+}
+
+header div {
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+header ul {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+header ul li {
+    list-style: none;
+    padding: 0 4px;
+}
+
+/* Main ******************************************************/
+
+main {
+    margin: 30px auto;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+}
+
+main section {
+    text-align: center;
+    width: 280px;
+    box-shadow: 0 0 15px #00000055;
+    padding: 10px;
+    border-radius: 10px;
+    margin: 8px;
+}
+
+main section img {
+    border-radius: 10px;
+    width: 250px;
+}
+
+main section div img {
+    width: 16px;
+}
+
+main section div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+main section a {
+    text-decoration: none;
+    color: rgb(0, 153, 0);
+    background-color: #00000044;
+    padding: 10px 15px;
+    margin: 10px;
+    border-radius: 10px 10px 0 0 ;
+}
+
+/* Footer ****************************************************/
+
+footer {
+    background-color: rgb(237, 237, 237);
+    padding: 20px;
+    text-align: center;
+}
+
+footer div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+footer img {
+    width: 32px;
+    padding: 8px;
+}
+
+#disclaimer {
+    font-size: 11px;
+    color: gray;
+}
